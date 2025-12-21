@@ -5,9 +5,11 @@ class AppTheme {
   static final darkThemeMode = ThemeData.dark().copyWith(
     scaffoldBackgroundColor: AppPallete.backgroundColor,
     inputDecorationTheme: InputDecorationTheme(
+      contentPadding: const EdgeInsets.all(27),
       enabledBorder: OutlineInputBorder(
         borderSide: BorderSide(
           color: AppPallete.borderColor,
+          width: 3,
         )
       ),
     )
