@@ -7,7 +7,16 @@ class AuthGradientButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       onPressed: () {},
-      child: Text('Sign Up'),
+      style: ElevatedButton.styleFrom(
+        fixedSize: const Size(395, 55),
+      ),
+      child: Text(
+        'Sign Up',
+        style: TextStyle(
+          fontSize: 17,
+          fontWeight: FontWeight.w600,
+        ),
+      ),
     );
   }
 }
