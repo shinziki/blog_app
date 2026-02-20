@@ -19,7 +19,8 @@ class AuthGradientButton extends StatelessWidget {
         onPressed: () {},
         style: ElevatedButton.styleFrom(
           fixedSize: const Size(395, 55),
-          backgroundColor: Colors.transparent,
+          backgroundColor: AppPallete.transparentColor,
+          shadowColor: AppPallete.transparentColor,
         ),
         child: Text(
           'Sign Up',
