@@ -10,3 +10,7 @@ abstract interface class AuthRemoteDataSource {
     required String password,
   });
 }
+
+class AuthRemoteDataSourceImpl implements AuthRemoteDataSource {
+  
+}
